@@ -39,8 +39,8 @@ class _custom_slider_bannerState extends State<custom_slider_banner> {
             itemBuilder: (context, index, int) => Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              image: DecorationImage(
-                image: NetworkImage(Cus_funcation().network_Imgpath(Img_id:widget.Networkimage[index])),
+              image: const DecorationImage(
+                image: NetworkImage('https://docs.flutter.dev/assets/images/dash/dash-fainting.gif'),
                 fit: BoxFit.fill
               )
             ),

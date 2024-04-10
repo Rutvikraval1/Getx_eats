@@ -38,9 +38,6 @@ class _cafe_detailsState extends State<cafe_details> {
                   print(value);
                 }),
 
-
-
-
           ],
         ));
   }

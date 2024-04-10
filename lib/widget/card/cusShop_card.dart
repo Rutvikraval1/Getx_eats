@@ -34,10 +34,12 @@ class CusShop_card extends StatelessWidget {
               Container(
                 height: height / 4,
                 decoration: ShapeDecoration(
-                  image:shop_img!=''? DecorationImage(
-                    image:NetworkImage(Cus_funcation().network_Imgpath(Img_id:shop_img)),
+                  image:
+                  shop_img!=''? DecorationImage(
+                    image:NetworkImage('https://picsum.photos/250?image=9'),
                     fit: BoxFit.cover,
-                  ):const DecorationImage(
+                  ):
+                  const DecorationImage(
                     image:AssetImage(AppImages.no_image),
                     fit: BoxFit.cover,
                   ),
